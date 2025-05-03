@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  width: 100%;
 }
 
 .logo {
@@ -39,4 +40,92 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* Gallery Layout */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #1976d2;
+}
+
+.app-header p {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.component-section {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.component-section h2 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.75rem;
+}
+
+.component-demo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.component-item {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 1rem;
+}
+
+.component-item h3 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: #666;
+  font-weight: 500;
+}
+
+.component-row {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+/* Custom styles for specific components in the gallery */
+.custom-card {
+  background-color: #e3f2fd;
+  border-left: 4px solid #1976d2;
+}
+
+.modal-content-demo {
+  padding: 1rem;
+}
+
+.modal-content-demo p {
+  margin-bottom: 1rem;
+}
+
+.modal-content-demo ul {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.modal-content-demo li {
+  margin-bottom: 0.5rem;
 }
